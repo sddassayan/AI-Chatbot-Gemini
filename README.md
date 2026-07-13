@@ -24,7 +24,7 @@ Designed with a modern and responsive interface, the chatbot maintains conversat
 
 A complete walkthrough of the application is available below.
 
-> **Demo:** *(Add your screen recording here after uploading it to GitHub or YouTube.)*
+> **Demo:** *(public/assets/My AI Chatbot Review.mp4)*
 
 ---
 
