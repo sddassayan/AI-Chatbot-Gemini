@@ -1,36 +1,165 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Chatbot Gemini
 
-## Getting Started
+An AI-powered chatbot built with **Next.js**, **React**, **TypeScript**, and the **Google Gemini API**. The application delivers intelligent, context-aware conversations and enables users to upload a PDF document for AI-assisted question answering.
 
-First, run the development server:
+Designed with a modern and responsive interface, the chatbot maintains conversational context across multiple prompts, allowing users to ask natural follow-up questions without repeating previous information.
+
+---
+
+##  Features
+
+*  AI-powered conversations using Google Gemini
+*  Multi-turn conversational context for natural follow-up interactions
+*  Upload and analyze a PDF document using AI
+*  Ask questions directly about the uploaded document
+*  Fast, responsive, and intuitive user interface
+*  Responsive design optimized for desktop and mobile
+*  Secure API configuration using environment variables
+
+---
+
+#  Media
+
+## Demo Video
+
+A complete walkthrough of the application is available below.
+
+> **Demo:** *(Add your screen recording here after uploading it to GitHub or YouTube.)*
+
+---
+
+## Sample PDF
+
+A sample document is included to help you explore the PDF chat functionality immediately.
+
+```text
+/demo/sample.pdf
+```
+
+Simply upload the provided PDF and start asking questions about its content.
+
+---
+
+##  Technology Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* HTML5
+* CSS3
+
+### AI
+
+* Google Gemini API
+
+### PDF Processing
+
+* PDF.js
+
+---
+
+## Project Structure
+
+```text
+AI-Chatbot-Gemini
+│
+├── app/
+├── components/
+├── public/
+│
+├── demo/
+│   ├── demo.mp4
+│   └── sample.pdf
+│
+├── lib/
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository.
+
+```bash
+git clone https://github.com/sddassayan/AI-Chatbot-Gemini.git
+```
+
+Navigate to the project directory.
+
+```bash
+cd AI-Chatbot-Gemini
+```
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+Create an environment file.
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Start the development server.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. Launch the application.
+2. Upload the provided sample PDF or your own document.
+3. Ask questions about the uploaded document.
+4. Continue the conversation naturally using follow-up questions.
+5. The chatbot preserves conversational context throughout the session to provide more coherent and relevant responses.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Future Enhancements
 
-## Deploy on Vercel
+* Support multiple PDF documents
+* Support DOCX and TXT files
+* Voice input and speech synthesis
+* Conversation export
+* User authentication
+* Persistent chat history
+* Retrieval-Augmented Generation (RAG)
+* Cloud deployment with Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+Contributions, feature requests, and suggestions are welcome. Feel free to fork the repository, open an issue, or submit a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Author
+
+**Sayandeep Das**
+
+GitHub: https://github.com/sddassayan
+
+LinkedIn: https://www.linkedin.com/in/sayandeepdas26
