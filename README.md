@@ -33,7 +33,7 @@ A complete walkthrough of the application is available below.
 A sample document is included to help you explore the PDF chat functionality immediately.
 
 ```text
-/demo/sample.pdf
+public/assets/sample_indian_profile.pdf
 ```
 
 Simply upload the provided PDF and start asking questions about its content.
